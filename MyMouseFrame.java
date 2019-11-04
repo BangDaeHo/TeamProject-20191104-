@@ -15,7 +15,7 @@ public class MyMouseFrame extends JFrame
       this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       
       JLabel ml;
-      ml.addMouseListener(new MyMouseListener(ml));
+      this.addMouseListener(new MyMouseListener(ml));
       this.setLayout(null);
       ml = new JLabel("No Mouse Event");
       ml.setSize(50,20);
