@@ -8,13 +8,14 @@ import javax.swing.*;
  */
 public class MyMouseFrame extends JFrame
 {
+    JLabel ml;
     public MyMouseFrame(){
       this.setTitle("MouseListener & MouseMotionListener");
       this.setSize(300,300);
       this.setVisible(true);
       this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       
-      JLabel ml;
+      
       this.addMouseListener(new MyMouseListener(ml));
       this.setLayout(null);
       ml = new JLabel("No Mouse Event");
