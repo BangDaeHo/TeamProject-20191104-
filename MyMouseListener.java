@@ -17,7 +17,6 @@ public class MyMouseListener extends MouseMotionAdapter implements MouseListener
     public void mouseClicked(MouseEvent e){}
     public void mouseEntered(MouseEvent e){
         Component c = (Component)e.getSource();
-        ml.setText("MouseEntered" + "(" + ml.getX() + ", " + ml.getY());
         c.setBackground(Color.CYAN);
     }
     public void mouseExited(MouseEvent e){}
