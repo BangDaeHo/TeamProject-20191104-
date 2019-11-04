@@ -18,8 +18,11 @@ public class MyMouseListener extends MouseMotionAdapter implements MouseListener
     public void mouseEntered(MouseEvent e){
         Component c = (Component)e.getSource();
 <<<<<<< HEAD
+<<<<<<< HEAD
         c.setBackground(Color.BLUE);
 =======
+=======
+>>>>>>> 4a4562d37e5254b88d777087b2c69e51c37da9cd
         c.setBackground(Color.CYAN);
 >>>>>>> 4a4562d37e5254b88d777087b2c69e51c37da9cd
     }
